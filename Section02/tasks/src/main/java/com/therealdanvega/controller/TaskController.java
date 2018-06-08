@@ -19,4 +19,9 @@ public class TaskController {
     public Iterable<Task> list(){
         return this.taskService.list();
     }
+
+    @PostMapping("/save")
+    public Task saveTask(@RequestBody Task task){
+        return taskService.save(task);
+    }
 }
