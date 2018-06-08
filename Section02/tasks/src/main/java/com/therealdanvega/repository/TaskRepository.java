@@ -1,7 +1,9 @@
 package com.therealdanvega.repository;
 
-public interface TaskRepository {
+import com.therealdanvega.domain.Task;
 
+import org.springframework.data.repository.CrudRepository;
 
+public interface TaskRepository extends CrudRepository<Task, Long>{
 
 }
