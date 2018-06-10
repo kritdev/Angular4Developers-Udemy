@@ -23,7 +23,7 @@ export class TasksListComponent implements OnInit {
   }
 
   onTaskChange(event, task){
-    //return this.task
+    console.log('task has changed.')
   }
 
 }
