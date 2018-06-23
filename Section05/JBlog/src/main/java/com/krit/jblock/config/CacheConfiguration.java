@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(com.krit.jblock.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.krit.jblock.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.krit.jblock.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.krit.jblock.domain.Post.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
