@@ -16,6 +16,8 @@ import { JBlogHomeModule } from './home/home.module';
 import { JBlogAdminModule } from './admin/admin.module';
 import { JBlogAccountModule } from './account/account.module';
 import { JBlogEntityModule } from './entities/entity.module';
+// import { JBlogMyViewModule } from './myView/myView.module';
+import { JBlogMyViewX01Module } from './myView/myViewX01/myViewX01.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
@@ -37,6 +39,8 @@ import {
         JBlogAdminModule,
         JBlogAccountModule,
         JBlogEntityModule,
+        // JBlogMyViewModule,
+        JBlogMyViewX01Module,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
